@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders for a signed in user 1`] = `
+Array [
+  <h1>
+    Appartment App
+  </h1>,
+  <a
+    href="/users/sign_out"
+  >
+    Sign Out
+  </a>,
+]
+`;
+
+exports[`renders for a signed out user 1`] = `
+Array [
+  <h1>
+    Appartment App
+  </h1>,
+  <a
+    href="/users/sign_in"
+  >
+    Sign In
+  </a>,
+]
+`;
